@@ -219,9 +219,9 @@ This project is part of the Smart India Hackathon (SIH) initiative.
 
 For any questions or feedback, feel free to contact:
 
-Author - Ankit kumar
+Author: Ankit kumar
 
-Email: your-ankitrajj1068@gmail.com
+Email: ankitrajj1068@gmail.com
 
 GitHub: [ankit-kumarz] 
 
