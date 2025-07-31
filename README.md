@@ -3,7 +3,11 @@
 An intelligent traffic management system that uses AI to analyze traffic videos and optimize traffic light timings for better traffic flow.
 
 
-## Demo[https://youtu.be/apccSZ6sDcw]
+## 🚀 Demo  
+<a href="https://youtu.be/apccSZ6sDcw" target="_blank">
+  <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo">
+</a>
+
 
 ## 🚀 Quick Start
 
