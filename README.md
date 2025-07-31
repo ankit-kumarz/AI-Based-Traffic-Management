@@ -215,7 +215,7 @@ This project is part of the Smart India Hackathon (SIH) initiative.
 
 ---
 
-## Contact:--
+## Contact
 
 For any questions or feedback, feel free to contact:
 
