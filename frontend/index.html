@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Based Traffic Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="App">
+        <h1>🚗 AI Based Traffic Management</h1>
+        <hr>
+
+        <div class="main-container">
+            <div class="left">
+                <section id="hero" class="hero">
+                    <h2>🚦 Optimize Traffic Flow with AI 🤖</h2>
+                    <p>Enhance your city's traffic management with our smart adaptive system. Our technology optimizes traffic light timings based on real-time data to reduce congestion and improve traffic flow.</p>
+                </section>
+                <section id="upload" class="upload">
+                    <h2>📹 Upload Your Traffic Videos</h2>
+                    <p>Select 4 videos showing different roads at an intersection. Our system will analyze these videos to provide optimized traffic light timings for smoother traffic flow.</p>
+                    <form id="uploadForm">
+                        <input 
+                            type="file" 
+                            id="fileInput"
+                            multiple 
+                            accept="video/*" 
+                        />
+                        <br/>
+                        <button type="submit">Run Model</button>
+                    </form>
+                </section>
+            </div>
+
+            <section id="result" class="result">
+                <div id="placeholder" class="placeholder">
+                    <p>Optimization results will show here <br/><span>🚦🚦🚦🚦</span></p>
+                </div>
+                <div id="loader" class="loader" style="display: none;">
+                    <p>Processing videos, it may take a few minutes...</p>
+                </div>
+                <div id="results" style="display: none;">
+                    <h2>✅ Optimization Results</h2>
+                    <p>Your traffic light timings have been optimized. Here are the recommended green times for each direction:</p>
+                    <ul>
+                        <li>🚦 North: <span id="north-time"></span> seconds</li>
+                        <li>🚦 South: <span id="south-time"></span> seconds</li>
+                        <li>🚦 West: <span id="west-time"></span> seconds</li>
+                        <li>🚦 East: <span id="east-time"></span> seconds</li>
+                    </ul>
+                </div>
+                <div id="error" style="display: none;">
+                    <h2>Error:</h2>
+                    <p id="error-message"></p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

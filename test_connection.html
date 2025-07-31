@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connection Test - AI Traffic Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .loading { background-color: #fff3cd; color: #856404; }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔗 Connection Test</h1>
+        <p>This page tests the connection between frontend and backend.</p>
+        
+        <button onclick="testBackendConnection()">Test Backend Connection</button>
+        <button onclick="testFrontendConnection()">Test Frontend Connection</button>
+        <button onclick="openMainApp()">Open Main Application</button>
+        
+        <div id="status"></div>
+        
+        <h3>Expected URLs:</h3>
+        <ul>
+            <li><strong>Backend:</strong> http://localhost:5000</li>
+            <li><strong>Frontend:</strong> http://localhost:8000</li>
+            <li><strong>Main App:</strong> http://localhost:8000/index.html</li>
+        </ul>
+    </div>
+
+    <script>
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+        }
+
+        async function testBackendConnection() {
+            showStatus('Testing backend connection...', 'loading');
+            
+            try {
+                const response = await fetch('http://localhost:5000/upload', {
+                    method: 'POST',
+                    body: new FormData()
+                });
+                
+                if (response.status === 400) {
+                    showStatus('✅ Backend is running! (Expected error for empty upload)', 'success');
+                } else {
+                    showStatus('✅ Backend is running!', 'success');
+                }
+            } catch (error) {
+                showStatus('❌ Backend connection failed: ' + error.message, 'error');
+            }
+        }
+
+        function testFrontendConnection() {
+            showStatus('Testing frontend connection...', 'loading');
+            
+            fetch('http://localhost:8000/index.html')
+                .then(response => {
+                    if (response.ok) {
+                        showStatus('✅ Frontend is running!', 'success');
+                    } else {
+                        showStatus('❌ Frontend connection failed: ' + response.status, 'error');
+                    }
+                })
+                .catch(error => {
+                    showStatus('❌ Frontend connection failed: ' + error.message, 'error');
+                });
+        }
+
+        function openMainApp() {
+            window.open('http://localhost:8000/index.html', '_blank');
+        }
+
+        // Auto-test on page load
+        window.onload = function() {
+            setTimeout(() => {
+                testBackendConnection();
+                setTimeout(testFrontendConnection, 1000);
+            }, 500);
+        };
+    </script>
+</body>
+</html> 
