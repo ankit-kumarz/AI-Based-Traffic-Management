@@ -2,6 +2,9 @@
 
 An intelligent traffic management system that uses AI to analyze traffic videos and optimize traffic light timings for better traffic flow.
 
+
+## Demo[https://youtu.be/apccSZ6sDcw]
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -209,5 +212,5 @@ This project is part of the Smart India Hackathon (SIH) initiative.
 ---
 
 
-## Demo[https://youtu.be/apccSZ6sDcw]
+
 **Note**: Make sure both backend and frontend are running simultaneously for the application to work properly!
