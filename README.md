@@ -91,7 +91,7 @@ This will automatically test both backend and frontend connections.
 4. Wait for the AI analysis (may take a few minutes)
 5. View the optimized traffic light timings for each direction
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 ```
 AI-Based-Traffic-Management-SIH-main/
