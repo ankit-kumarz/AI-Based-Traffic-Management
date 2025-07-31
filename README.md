@@ -201,9 +201,7 @@ AI-Based-Traffic-Management-SIH-main/
 - Backend: Test API endpoints with tools like Postman
 - Frontend: Use browser developer tools for debugging
 
-## 📄 License
 
-This project is part of the Smart India Hackathon (SIH) initiative.
 
 ## 🤝 Contributing
 
