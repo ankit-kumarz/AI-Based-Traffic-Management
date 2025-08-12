@@ -202,7 +202,6 @@ AI-Based-Traffic-Management-SIH-main/
 - Frontend: Use browser developer tools for debugging
 
 
-
 ## 🤝 Contributing
 
 1. Fork the repository
