@@ -62,7 +62,7 @@ cd frontend
 # Start the HTTP server
 python -m http.server 8000
 ```
-Then open `http://localhost:8000` in your browser
+Then open `http://localhost:8000` in your browser 
 
 ##### Option B: Direct file opening
 Simply double-click `frontend/index.html` to open it in your browser
