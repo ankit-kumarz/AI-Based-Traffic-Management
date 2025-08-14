@@ -222,4 +222,4 @@ Email: ankitrajj1068@gmail.com
 
 GitHub: [ankit-kumarz] 
 
-**Note**: Make sure both backend and frontend are running simultaneously for the application to work properly!
+**Note**: Make sure both backend and frontend are running simultaneously for the application to work properly! 
