@@ -220,6 +220,6 @@ Author: Ankit kumar
 
 Email: ankitrajj1068@gmail.com
 
-GitHub: [ankit-kumarz] 
+GitHub: [https://github.com/ankit-kumarz/] 
 
 **Note**: Make sure both backend and frontend are running simultaneously for the application to work properly! 
