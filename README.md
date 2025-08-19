@@ -146,7 +146,7 @@ AI-Based-Traffic-Management-SIH-main/
   }
   ```
 
-## 🛠️ Technical Details
+## 🛠️ Technical Details:
 
 ### Backend Technologies
 - **Flask**: Web framework
