@@ -16,7 +16,7 @@ An Intelligent Traffic Management System that uses AI to analyze traffic videos 
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 
 ### 🎯 Easiest Way to Start (Recommended)
-
+ 
 #### Windows Users:
 ```bash
 # Double-click the start_project.bat file
