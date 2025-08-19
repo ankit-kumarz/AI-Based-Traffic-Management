@@ -1,6 +1,6 @@
 # AI-Based Traffic Management System
 
-An Intelligent Traffic Management System that uses AI to analyze traffic videos and optimize traffic light timings for better traffic flow.
+An Intelligent Traffic Management System that uses AI to analyze traffic videos and optimize traffic light timings for better traffic flow. 
 
 
 ## 🚀 Demo  
