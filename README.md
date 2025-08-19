@@ -37,7 +37,7 @@ chmod +x start_project.sh
 
 #### 1. Backend Setup
 
-```bash
+```bash 
 # Navigate to backend directory
 cd backend
 
