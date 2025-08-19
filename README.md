@@ -56,7 +56,7 @@ The frontend is now a vanilla HTML/CSS/JS application. You can run it in several
 
 ##### Option A: Using Python's built-in server (Recommended)
 ```bash  
-# Navigate to frontend directory
+# Navigate to frontend directory 
 cd frontend 
 
 # Start the HTTP server
