@@ -10,7 +10,7 @@ An Intelligent Traffic Management System that uses AI to analyze traffic videos 
 
 
 ## 🚀 Quick Start
-
+ 
 ### Prerequisites 
 - Python 3.7 or higher
 - Modern web browser (Chrome, Firefox, Safari, Edge)
