@@ -87,7 +87,7 @@ This will automatically test both backend and frontend connections.
 
 1. Open the main application: `http://localhost:8000/index.html`
 2. Click "Choose Files" and select exactly 4 video files showing different roads at an intersection
-3. Click "Run Model" to process the videos
+3. Click "Run Model" to process the videos 
 4. Wait for the AI analysis (may take a few minutes)
 5. View the optimized traffic light timings for each direction
 
