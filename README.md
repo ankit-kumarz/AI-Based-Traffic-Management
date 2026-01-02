@@ -44,7 +44,7 @@ cd backend
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Start the backend server
+# Start the backend server 
 python app.py
 ```
 
