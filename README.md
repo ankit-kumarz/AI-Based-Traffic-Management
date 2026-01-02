@@ -38,7 +38,7 @@ chmod +x start_project.sh
 #### 1. Backend Setup
 
 ```bash 
-# Navigate to backend directory
+# Navigate to backend directory 
 cd backend
 
 # Install Python dependencies
