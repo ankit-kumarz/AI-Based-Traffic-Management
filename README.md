@@ -153,7 +153,7 @@ AI-Based-Traffic-Management-SIH-main/
 - **OpenCV**: Computer vision and video processing
 - **YOLO**: Real-time object detection
 - **NumPy/SciPy**: Mathematical computations
-- **Flask-CORS**: Cross-origin resource sharing
+- **Flask-CORS**: Cross-origin resource sharing 
 
 ### Frontend Technologies
 - **HTML5**: Structure
