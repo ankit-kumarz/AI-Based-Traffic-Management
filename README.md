@@ -75,7 +75,7 @@ Simply double-click `frontend/index.html` to open it in your browser
 ### 3. Test Connection (Optional)
 
 To verify everything is working correctly, you can test the connection:  
-
+ 
 ```bash
 # Open the connection test page
 http://localhost:8000/test_connection.html
