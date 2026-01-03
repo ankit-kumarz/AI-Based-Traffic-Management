@@ -175,7 +175,7 @@ AI-Based-Traffic-Management-SIH-main/
    - Check browser console for CORS errors
    - Ensure both servers are running simultaneously 
 
-3. **File upload fails**
+3. **File upload fails** 
    - Select exactly 4 video files
    - Ensure videos are in supported formats (MP4, AVI, etc.)
    - Check file sizes (should be reasonable for upload)
