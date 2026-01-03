@@ -155,7 +155,7 @@ AI-Based-Traffic-Management-SIH-main/
 - **NumPy/SciPy**: Mathematical computations
 - **Flask-CORS**: Cross-origin resource sharing 
 
-### Frontend Technologies
+### Frontend Technologies 
 - **HTML5**: Structure
 - **CSS3**: Styling with responsive design
 - **Vanilla JavaScript**: Interactivity and API communication
