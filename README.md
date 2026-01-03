@@ -32,7 +32,7 @@ chmod +x start_project.sh
 # Run the startup script
 ./start_project.sh
 ```
-
+ 
 ### 🔧 Manual Setup
 
 #### 1. Backend Setup
