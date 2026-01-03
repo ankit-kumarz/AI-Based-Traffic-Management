@@ -151,7 +151,7 @@ AI-Based-Traffic-Management-SIH-main/
 ### Backend Technologies
 - **Flask**: Web framework
 - **OpenCV**: Computer vision and video processing
-- **YOLO**: Real-time object detection
+- **YOLO**: Real-time object detection 
 - **NumPy/SciPy**: Mathematical computations
 - **Flask-CORS**: Cross-origin resource sharing 
 
