@@ -118,7 +118,7 @@ AI-Based-Traffic-Management-SIH-main/
 - ✅ YOLO-based vehicle detection
 - ✅ Traffic density analysis
 - ✅ Intelligent traffic light timing optimization
-- ✅ RESTful API with CORS support
+- ✅ RESTful API with CORS support 
 - ✅ File upload handling 
 
 ### Frontend (Vanilla HTML/CSS/JS)
