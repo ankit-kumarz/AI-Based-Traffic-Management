@@ -119,7 +119,7 @@ AI-Based-Traffic-Management-SIH-main/
 - ✅ Traffic density analysis
 - ✅ Intelligent traffic light timing optimization
 - ✅ RESTful API with CORS support
-- ✅ File upload handling
+- ✅ File upload handling 
 
 ### Frontend (Vanilla HTML/CSS/JS)
 - ✅ Modern, responsive UI
