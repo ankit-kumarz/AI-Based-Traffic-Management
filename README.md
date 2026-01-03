@@ -162,7 +162,7 @@ AI-Based-Traffic-Management-SIH-main/
 - **Fetch API**: HTTP requests
  
 ## 🚨 Troubleshooting
-
+ 
 ### Common Issues
 
 1. **Backend won't start**
