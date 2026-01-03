@@ -160,7 +160,7 @@ AI-Based-Traffic-Management-SIH-main/
 - **CSS3**: Styling with responsive design
 - **Vanilla JavaScript**: Interactivity and API communication
 - **Fetch API**: HTTP requests
-
+ 
 ## 🚨 Troubleshooting
 
 ### Common Issues
