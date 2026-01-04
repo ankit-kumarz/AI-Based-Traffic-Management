@@ -53,7 +53,7 @@ The backend will start on `http://localhost:5000`
 #### 2. Frontend Setup
 
 The frontend is now a vanilla HTML/CSS/JS application. You can run it in several ways:
- 
+  
 ##### Option A: Using Python's built-in server (Recommended) 
 ```bash  
 # Navigate to frontend directory 
