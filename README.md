@@ -174,7 +174,7 @@ AI-Based-Traffic-Management-SIH-main/
    - Verify backend is running on `http://localhost:5000` 
    - Check browser console for CORS errors
    - Ensure both servers are running simultaneously 
-
+ 
 3. **File upload fails** 
    - Select exactly 4 video files
    - Ensure videos are in supported formats (MP4, AVI, etc.)
