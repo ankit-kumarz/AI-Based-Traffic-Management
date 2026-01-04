@@ -23,7 +23,7 @@ An Intelligent Traffic Management System that uses AI to analyze traffic videos 
 # OR run from command line:
 start_project.bat
 ```
-
+ 
 #### Linux/Mac Users:
 ```bash
 # Make the script executable (first time only)
