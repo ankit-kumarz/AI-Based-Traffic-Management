@@ -147,7 +147,7 @@ AI-Based-Traffic-Management-SIH-main/
   ```
 
 ## 🛠️ Technical Details:
-
+ 
 ### Backend Technologies
 - **Flask**: Web framework
 - **OpenCV**: Computer vision and video processing
