@@ -135,7 +135,7 @@ AI-Based-Traffic-Management-SIH-main/
 - **Purpose**: Upload and analyze traffic videos
 - **Content-Type**: multipart/form-data
 - **Parameters**: 
-  - `videos`: Array of 4 video files
+  - `videos`: Array of 4 video files 
 - **Response**: JSON with optimized traffic light timings
   ```json
   {
