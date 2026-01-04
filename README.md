@@ -171,7 +171,7 @@ AI-Based-Traffic-Management-SIH-main/
    - Check if port 5000 is available
 
 2. **Frontend can't connect to backend**
-   - Verify backend is running on `http://localhost:5000`
+   - Verify backend is running on `http://localhost:5000` 
    - Check browser console for CORS errors
    - Ensure both servers are running simultaneously 
 
