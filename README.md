@@ -129,7 +129,7 @@ AI-Based-Traffic-Management-SIH-main/
 - ✅ No build process required
 - ✅ Works in any modern browser
 
-## 🌐 API Endpoints
+## 🌐 API Endpoints 
 
 ### POST /upload
 - **Purpose**: Upload and analyze traffic videos
