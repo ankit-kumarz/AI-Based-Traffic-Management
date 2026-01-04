@@ -210,7 +210,7 @@ AI-Based-Traffic-Management-SIH-main/
 4. Test thoroughly 
 5. Submit a pull request
 
----
+--- 
 
 ## Contact-
 
