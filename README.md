@@ -100,7 +100,7 @@ AI-Based-Traffic-Management-SIH-main/
 │   ├── algo.py             # Traffic optimization algorithm
 │   ├── yolov4.py           # YOLO object detection
 │   ├── yolov4_Recording.py # Video processing utilities
-│   ├── requirements.txt    # Python dependencies
+│   ├── requirements.txt    # Python dependencies 
 │   ├── yolov4-tiny.cfg     # YOLO configuration
 │   ├── yolov4-tiny.weights # YOLO model weights
 │   └── classes.txt         # Object classes
