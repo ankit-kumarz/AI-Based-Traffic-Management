@@ -165,7 +165,7 @@ AI-Based-Traffic-Management-SIH-main/
  
 ### Common Issues
 
-1. **Backend won't start**
+1. **Backend won't start** 
    - Ensure Python 3.7+ is installed
    - Install all requirements: `pip install -r requirements.txt`
    - Check if port 5000 is available
