@@ -97,7 +97,7 @@ This will automatically test both backend and frontend connections.
 AI-Based-Traffic-Management-SIH-main/
 ├── backend/
 │   ├── app.py              # Flask server
-│   ├── algo.py             # Traffic optimization algorithm
+│   ├── algo.py             # Traffic optimization algorithm 
 │   ├── yolov4.py           # YOLO object detection
 │   ├── yolov4_Recording.py # Video processing utilities
 │   ├── requirements.txt    # Python dependencies 
