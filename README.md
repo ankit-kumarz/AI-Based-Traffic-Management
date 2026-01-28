@@ -103,7 +103,7 @@ AI-Based-Traffic-Management-SIH-main/
 │   ├── requirements.txt    # Python dependencies 
 │   ├── yolov4-tiny.cfg     # YOLO configuration
 │   ├── yolov4-tiny.weights # YOLO model weights
-│   └── classes.txt         # Object classes
+│   └── classes.txt         # Object classes 
 ├── frontend/
 │   ├── index.html          # Main HTML file
 │   ├── styles.css          # CSS styles
