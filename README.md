@@ -70,7 +70,7 @@ Simply double-click `frontend/index.html` to open it in your browser
 ##### Option C: Using Live Server (VS Code)
 1. Install "Live Server" extension in VS Code
 2. Right-click on `frontend/index.html`
-3. Select "Open with Live Server"
+3. Select "Open with Live Server" 
  
 ### 3. Test Connection (Optional)
 
